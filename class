@@ -1,0 +1,25 @@
+class Animal {
+  constructor(legs, tail, gender) {
+    this.legs = legs;
+    this.tail = tail;
+    this.gender = gender;
+  }
+  getLegs() {
+    console.log(this.legs);
+  }
+}
+class Dog extends Animal {
+  constructor(name, sound, legs, tail, gender) {
+    super(legs, tail, gender);
+    this.name = name;
+    this.sound = sound;
+  }
+  getData() {
+    console.log(this.name, this.sound, this.tail, this.gender);
+    this.getLegs();
+  }
+}
+var dd = new Dog("doggy", "bark", 4, true, "male");
+
+dd.getData();
+// dd.getLegs();
