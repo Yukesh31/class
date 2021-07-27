@@ -23,3 +23,82 @@ var dd = new Dog("doggy", "bark", 4, true, "male");
 
 dd.getData();
 // dd.getLegs();
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+
+class Myclass
+{
+  constructor()
+  {
+    this.names_=[];
+  }
+  //setter is used to write the values 
+  
+  set name(value)
+  {
+    this.names_.push(value);
+  }
+  
+  //getter is used  to read the data
+  get name()
+  {
+    return this.names_[this.names_.length-1];
+  }
+  
+  
+}
+
+  //instance of the class Myclass
+  const myclassInstance=new Myclass();
+  myclassInstance.name="Bob";
+  myclassInstance.name="Joe";
+  
+  console.log(myclassInstance.name);
+    console.log(myclassInstance.names_);
+
+/////////////////////////////////////////////////
+const classInstance=new class{
+  set prop(value)
+  {
+    console.log('setting',value);
+  }
+}
+
+classInstance.prop=10;
+console.log(classInstance.prop);
+
+///////////////////////////////////////
+//Getter is used to print or get the data
+
+const classInstance=new class{
+  get prop()
+  {
+   return 100;
+  }
+}
+
+classInstance.prop=10;
+console.log(classInstance.prop);
+
+//////////////////////////////////////
+
+funtion person()
+{
+  this.name='Joe';
+}
+
+funtion obj()
+{
+  obj.call(this)
+}
+
+//Another way to create an object
+obj.prototype=Object.create(person.prototype);
+const app=new obj();
+console.log(app.name);
+
+// Joe
+
+var ref=new Classname();
+/////////////////////////////////////
+
