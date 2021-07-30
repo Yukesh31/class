@@ -176,7 +176,61 @@ fetch("https://restcountries.eu/rest/v2/all")
 });
 ///////////////////////////
 
+et obj = [
+let obj = [
+  {
+    postId: 1,
+    id: 1,
+    name: "id labore ex et quam laborum",
+    email: "Dallas@ole.me",
+    body: "laudantium enim quasi",
+  },
+  {
+    postId: 1,
+    id: 2,
+    name: "quo vero reiciendis velit similique earum",
+    email: "Jayne_Kuhic@sydney.com",
+    body: "est natus enim nihil est dolore omnis voluptatem numquam",
+  },
+From Venkat to Everyone:  10:46 AM
+{
+    postId: 2,
+    id: 6,
+    name: "et fugit eligendi deleniti quidem qui sint nihil autem",
+    email: "Presley.Mueller@myrl.com",
+    body: "doloribus at sed quis culpa deserunt consectetur qui",
+  },
+  {
+    postId: 2,
+    id: 7,
+    name: "repellat consequatur praesentium ",
+    email: "Dallas@ole.me",
+    body: "maiores sed dolores similique labore et",
+  },
+  {
+    postId: 2,
+    id: 8,
+    name: "et omnis dolorem",
+    email: "Jayne_Kuhic@sydney.com",
+    body: "ut voluptatem corrupti velit\nad voluptatem ",
+  },
+  {
+    postId: 2,
+    id: 9,
+    name: "provident id voluptas",
+    email: "Dallas@ole.me",
+    body: "sapiente assumenda molestiae",
+  },
+  {
+    postId: 2,
+    id: 10,
+    name: "eaque et deleniti atque tenetur ut quo ut",
+    email: "Jayne_Kuhic@sydney.com",
+    body: "voluptate iusto quis nobis",
+  },
+];
 
+//////////////////////////////////////////
   
   
   
