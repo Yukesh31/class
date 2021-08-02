@@ -284,7 +284,36 @@ let result = (function (array) {
   
   
   /////////////////////////////////////
-  
+  <table style="border:10px solid black;text-align: center;">
+        <tr>
+            <th>Sl.No.</th>
+            <th>Trainee Name</th>
+            <th>Mobile Number</th>
+        </tr>
+        <tr>
+            <td>Suman Gangopadhyay</td>
+            <td>suman@example.com</td>
+            <td>9934212345</td>
+        </tr>
+    </table>
+
+///////////////////////////////////////////////////
+<!-- --->
+<br>
+<table>
+<a href=" "></a>
+<img src=" ">
+total of six levels of heading tag
+<iframe src=" "></iframe>
+////////////////////////////////////////////////////
+<form action=" " method="GET">
+    <label for="fname">fname</label>
+    <input type="text" name="fname" placeholder="enter">
+    <input type="submit" value="submit">
+    </form>
+    ////////////////////////////////////////////
+    
+
   
   
   
