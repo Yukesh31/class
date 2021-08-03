@@ -313,6 +313,205 @@ total of six levels of heading tag
     </form>
     ////////////////////////////////////////////
     
+    <form action="">
+        <label for="option_1">Gender :</label>
+        <select name="option_1" id="option_1">
+            <option value="pizza">Male</option>
+            <option value="pizza">Female</option>
+        </select><br/>
+        <label for="addresss">Permanent Address : </label>
+        <!-- TEXTAREA -->
+        <textarea name="address" id="address" cols="20" rows="20" placeholder="Your current address">
+           
+        </textarea>
+
+    </form>
+
+///////////////////////////////////////////////////
+
+<form action="https://google.com" method="GET">
+        <button type="submit" onclick="alert('I love Pizza !')">Suman</button>
+
+    </form>
+
+///////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; text-decoration: underline;">RESUME</h1>
+    <img src="C:\Users\Yukesh\Desktop\9962192464.JPG" style="width: 100px; height: 100px ;">
+    <p style="font-size: larger; text-decoration: underline;">NAME:V.YUKESHKUAMARN</p>
+    
+    <p style="font-size: larger; text-decoration: underline;">Email:vyukeshkumaran@gmail.com</p>
+    <p style="font-size: larger; text-decoration: underline;">Phone_no:9962192464</p>
+    <hr>
+
+<p style="font-size: xx-large; font-weight: bolder;text-decoration: underline;">CAREER OBJECTIVE:</p>
+<p style="align-content: space-around;">To Make Use Of My Technical And Non-Technical Skills And Contribute My
+    EthicalQualities Towards Building My Career Along With The Organization</p>
+    <hr>
+    <p style="font-size: xx-large; font-weight: bolder;text-decoration: underline;">EDUCATIONAL QUALIFICATION:</p>
+    <hr>
+    <table style="border: 1px solid balck; font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;">
+    <tr border: 1px solid #dddddd;>
+        <th>
+            year of passing
+        </th>
+        <th>
+            education
+        </th>
+        <th>
+            percentage
+        </th>
+        
+    </tr>
+    <tr style="text-align: center;border: 1px solid #dddddd; border-collapse:collapse;"><td>
+        2021
+    </td>
+    <td>anna university</td>
+    <td>80%</td></tr>
+    <tr style="text-align: center;border: 1px solid #dddddd; border-collapse:collapse;">
+    <td>
+        2017
+    </td>
+    <td>azion matric</td>
+    <td>98%</td></tr>
+<tr style="text-align: center;border: 1px solid #dddddd; border-collapse:collapse;"> <td>
+        2015
+    </td>
+    <td>zion matric</td>
+    <td>94%</td></tr>
+</table>
+<hr>
+<p style="font-size: xx-large; font-weight: bolder;text-decoration: underline;">PROJECTS</p>
+<ul>
+    <li>Exterior Engender </li><li> Carburettor Engine Design</li><li>
+        Automatic Physiotherapy Mach</li>
+</ul>
+<hr>
+<p style="font-size: xx-large; font-weight: bolder;text-decoration: underline;">WORKSHOPS</p>
+<p>Attended An Automobile Engine Assembly Workshop Conducted By Association Of
+    Manufacturing Engineers In College Of Engineering Guindy, Anna University</p>
+    <hr>
+    <p style="font-size: xx-large; font-weight: bolder;text-decoration: underline;">skills</p>
+    <ul> <li>Technical skills:</li>
+       <ol> <li>pcb</li>
+        <li>hardnesss</li>
+        <li>machine learning</li></ol>
+    </ul>
+    <ul> <li>soft skills:</li>
+        <ol> <li>leadership</li>
+         <li>time management</li>
+         <li>creative thinking</li></ol>
+     </ul>
+     <ul> <li>key strength:</li>
+        <ol> <li>Willingness To Learn New Things </li>
+         <li>Ability To Deal With People Collabor</li>
+         <li>machine learning</li></ol>
+     </ul>
+     <hr>
+     <p style="font-size: xx-large; font-weight: bolder;text-decoration: underline;">DECLARATIONS</p>
+     <p>
+        I Hereby Declare That The Information Furnished Above Is True To The Best Of My Knowledge
+     </p>
+
+
+
+
+
+
+   
+    
+    
+</body>
+</html>
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+<!-- CSS - CASCADING STYLE SHEET -->
+   1.) Inline
+   2.) Internally
+   3.) Externally
+
+/////////////////////////////////////////////////////
+<div id="name" class="class_1 class_2">
+      Suman Gangopadhyay
+  </div>
+  <div id="place" class="class_1 class_2">
+      Bangalore
+  </div>
+
+//////////////////////////////////////////////////////
+# is to catch a HTML tag with ID
+. is to catch a HTML tag with CLASS
+<style>
+        /* INTERNAL CSS  */
+        div{
+            background-color: bisque;
+        }
+
+        #name{
+            background-color: blueviolet;
+        }
+        .class_1{
+            color: chartreuse;
+        }
+    </style>
+
+////////////////////////////////////////////////////
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        
+        div{
+            background-color: bisque;
+        }
+
+        #name{
+            background-color: lawngreen;
+        }
+        #name2{
+            background-color: blue;
+        }
+        .class_1{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div id="name" class="class1">yukesh</div>
+    <div id="name2" class="class1">kuamaran</div>
+
+
+   
+    
+    
+</body>
+</html>
+//////////////////////////////////////////////////////////////////////
+
+margin-bottom: 20px;
+            margin-left: 20px;
+            margin-top:15px;
+
+//////////////////////////////////////////////////////////////
+
+    
 
   
   
