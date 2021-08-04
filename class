@@ -510,6 +510,184 @@ margin-bottom: 20px;
             margin-top:15px;
 
 //////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+<div id="first"></div>
+<div id="second"></div>    
+    
+    
+
+
+</body>    
+</html>
+
+
+#first{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 100px;
+    display: inline-block;
+}
+#second{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 100px;
+  display: inline-block;
+}
+
+
+////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+<div id="first"> <div id ="name"></div>
+    
+    
+
+
+</body>    
+</html>
+
+
+#first{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    display: inline-block;
+position: relative;
+}        
+
+#name{
+    width: 50px;
+    height: 50px;
+    background-color:chocolate;
+top: 50%;
+left: 50%;
+position: absolute;
+margin:-25px 0 0 -25px ;
+}
+
+/////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+<header>
+    <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">home1</a></li>
+        <li><a href="#">home2</a></li>
+        <li><a href="#">home3</a></li>
+    </ul>
+</header>
+    
+    
+
+
+</body>    
+</html>
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    width: auto;
+    background-color:darkseagreen;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+header li{
+    text-decoration: none;
+    display: inline-block;
+}
+header li a{
+    text-decoration: none;
+    color: darkmagenta;
+    padding-right: 40px;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+<nav id="left_nav_bar">
+    <ul>
+        <li>
+            <a href="#">admin</a>
+        </li>
+        <li>
+            <a href="#">admin1</a>
+        </li>
+        <li>
+            <a href="#">admin2</a>
+        </li>
+        <li>
+            <a href="#">admim3</a>
+        </li>
+    </ul>
+</nav>
+    
+
+
+</body>    
+</html>
+
+#left_nav_bar{
+    display:inline-block;
+    padding: 30px;
+}
+#left_nav_bar li a{
+    color:black;
+    
+}
+#left_nav_bar li{
+    background-color: rosybrown;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#left_nav_bar li:hover{
+    background-color: seashell;
+    
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
 
     
 
