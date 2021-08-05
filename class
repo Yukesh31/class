@@ -685,7 +685,66 @@ header li a{
     margin: 0%;
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/practise.css">
 
+</head>
+<body>
+<div id="dropdown">
+    <button id="btn1">select</button>
+    <div id="menucntnt">
+        <a href="#">panner</a>
+        <a href="#">panner</a>
+        <a href="#">panner</a>
+        <a href="#">panner</a>
+    
+    </div>
+
+</div>
+</body></html>
+"CSS FILE":
+#btn1{
+    background-color: aquamarine;
+    color: blue;
+
+}
+#dropdown:hover #btn1{
+    background-color: cadetblue;
+
+}
+#dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+#menucntnt{
+    color:black;
+    display: none;
+    position: absolute;
+}
+ #menucntnt a{
+color:black;
+display: block;
+}
+ #menucntnt a:hover{
+     background-color: yellow;
+ }
+ #dropdown:hover #menucntnt{
+     display: block;
+ }
+ ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ <section>
+ </section>
+ flex-direction:row;
+ justify-content:column;
+ ///////////////////////////////////////////////////////////////////////////////////
+ 
 
 
 
