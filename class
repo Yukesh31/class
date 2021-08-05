@@ -744,7 +744,51 @@ display: block;
  flex-direction:row;
  justify-content:column;
  ///////////////////////////////////////////////////////////////////////////////////
- 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+<section>
+  <img class="pic" src="img/8a756c54b409affd64bf852c975f7042.jpg">
+  <img class="pic" src="img/download.jpg">
+  <img class="pic" src="img/avopix-358720985.jpg">
+  <img class="pic" src="img/download.jpg">  
+  <img class="pic" src="img/8708687-pile-of-candy-hearts-in-the-form-of-letters-isolated-on-white-.jpg">
+  <img class="pic" src="img/depositphotos_20328897-stock-photo-alphabet-of-hearts.jpg">
+  <img class="pic" src="img/images.jpg">
+  <img class="pic" src="img/images.jpg">
+</section>
+
+</body>
+    
+</html>
+"CSS FILE":
+
+section {
+    width: auto;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
 
 
 
