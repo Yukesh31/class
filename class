@@ -787,6 +787,94 @@ section {
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+  
+  <div class="container">
+
+  <img  src="img/a.jpg">
+  <img  src="img/b.jpg">
+  <img  src="img/c.jpg">
+  <img  src="img/d.jpg">  
+  <img  src="img/e.jpg">
+</div>
+</body>
+    
+</html>
+
+CSS FILE":
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: border-radius 5s;
+}
+img:hover{
+    border-radius: 90%
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+  <div class="container">
+  <h1>yukesh</h1>
+</div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+    
+</html>
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+  <h1>yukesh</h1>
+</div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+    
+</html>
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 
