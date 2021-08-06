@@ -875,6 +875,76 @@ img:hover{
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+  <div class="container">
+    <p class="bg-primary">hi</p>
+<p class="bg-success" >hi</p> 
+<p class="bg-danger">hi</p>
+<p class="text-right" >hi</p>  
+  
+</div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+    
+</html>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+  <div class="container">
+   <table class="table-bordered table table-striped text-center">
+     <thead>
+       <tr>
+         <th>name</th>
+         <th>phone</th>
+         <th>place</th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td>yukesh</td>
+         <td>99999999</td>
+         <td>chennai</td>
+       </tr>
+       <tr>
+        <td>yukesh</td>
+        <td>99999999</td>
+        <td>chennai</td>
+      </tr>
+      <tr>
+        <td>yukesh</td>
+        <td>99999999</td>
+        <td>chennai</td>
+      </tr>
+     </tbody>
+   </table>
+</div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+    
+</html>
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
