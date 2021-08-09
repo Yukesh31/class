@@ -993,6 +993,114 @@ height: 200px
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+  <div class="container">
+  <div class="container1">
+<img src="img/drawers.jpg">
+<div class="container2">
+<h2>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+  <p> Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. 
+  I’ve got some simple tips to help you make any room feel complete.</p>
+  <div class="img2">
+    <img style="border-radius: 50%; width: 30px; height: 30px;"  src="img/avatar-michelle.jpg">
+    <div class="name">
+  <p ><b>Michelle Appleton</b></p>
+  <small>28 Jun 2020</small>
+</div>
+<div class="img3">
+  <img style=" width: 10px;
+  height: 10px;" src="img/icon-share.svg"></div>
+ 
+</div>
+<div class="popup">
+
+<img style=" width: 10px;
+height: 10px;" src="img/icon-facebook.svg">
+<img style=" width: 10px;
+height: 10px;" src="img/icon-twitter.svg">
+<img style=" width: 10px;
+height: 10px;" src="img/icon-pinterest.svg"></div>
+</div>
+</div>
+</div>
+</body>
+    
+</html>
+
+
+"CSS file":
+body{
+    font-family: 'Manrope', sans-serif;
+}
+.container{
+    width:300px;
+    height: 660px;
+    background-color: rgb(196, 190, 190);
+    overflow: hidden;
+    border-radius:7px 7px 0 0;
+   
+}
+.container1{
+    width:100%;
+    height: 500px;
+    
+
+ background-color:blue;
+ border-radius:7px 7px 0 0;
+ 
+
+}
+.container2{
+    margin: 5px 5px 5px;
+}
+img{
+   width:100%;
+height: 150px
+}
+.img2{
+    display: flex;
+    flex-direction: row;
+
+gap:10px;
+
+}
+.img3{
+    background-color:rgb(214, 208, 208);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 30px;
+
+}
+.img3:hover{
+    background-color: black;
+}
+.popup{
+    display: flex;
+    flex-direction: row;
+    gap:10px
+    
+
+}
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
