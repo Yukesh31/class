@@ -1227,6 +1227,37 @@ position: relative;
 ///////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
+const colors=['red', 'blue','green',"orange","black"];
+let index=0;
+const cycle=()=>{
+  console.log("cycle!!",index);
+if(index===colors.length)
+  {
+    index=0;
+  }
+  document.body.style.backgroundColor = colors[index];
+  index++;
+}
+setInterval(cycle,1000);
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+const colors=['red', 'blue','green',"orange","black"];
+let index=0;
+const cycle=()=>{
+  console.log("cycle!!",index);
+  if(index===colors.length){
+    index=0;
+  }
+
+  document.body.style.backgroundColor = colors[index];
+  index++;
+}
+const colorInterval=setInterval(cycle,1000);
+setTimeout(()=> clearInterval(colorInterval),1000*10)
+
+//////////////////////////////////////////////////////////////////////////////
+
 
 
 
