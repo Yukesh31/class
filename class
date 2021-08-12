@@ -1258,6 +1258,19 @@ setTimeout(()=> clearInterval(colorInterval),1000*10)
 
 //////////////////////////////////////////////////////////////////////////////
 
+<div class="tweetcontainer">
+	<textarea oninput="count(event)" rows="10" cols="20"  maxlength="30" placeholder="whatshappening?"></textarea><span class="counter">0/30</span>
+</div>
+
+"JS":
+function count(event){
+  const tweet=event.target.value;
+ const counter= document.querySelector(".counter");
+  counter.innerText=`${tweet.length}/30`;
+    console.log("typing",tweet.length,event.target.value);
+}
+/////////////////////////////////////////////////////////////////////////////////
+////////////////////
 
 
 
